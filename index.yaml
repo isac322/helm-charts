@@ -1,0 +1,372 @@
+apiVersion: v1
+entries:
+  argocd:
+  - apiVersion: v2
+    created: "2022-07-24T17:23:38.567110714Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.10.0
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: d548faa0a6484b72645e4c2159870a8aa110887a311cb9df82561c95bad09f3f
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.7/argocd-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    created: "2022-05-15T15:20:44.647504255Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.6.0
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: 8d13616cda5f6f1b80786479e2b1680170bf92cb1b1fc91d70334834b50cc339
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.5/argocd-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    created: "2022-05-07T07:04:01.730474387Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.5.10
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: 60bfafcb18ec458696be16f81baac20ae5f0a2bd01364ef11796682f8e113a56
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.3/argocd-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2022-05-07T06:59:21.464848972Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.5.10
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: d76152180ba35b755dde6fab769f5b8f4a37029baacc4466f93d43a1fa2a2979
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.2/argocd-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2022-05-06T17:39:34.462186951Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.5.10
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: 54d3d7660d35b1e730f8737b7c33512132552f4ffb9aff1552583f7fa6109af6
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.1/argocd-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2022-05-06T15:51:41.659525368Z"
+    dependencies:
+    - alias: parent
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.5.10
+    description: Extend official argo-cd with Cloudflare's Origin CA Issuer
+    digest: bb4c5f08c0105b050ec738b39bedba6317f125ac884677df1f262bcc4da6db49
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/argocd-0.1.0/argocd-0.1.0.tgz
+    version: 0.1.0
+  blackd:
+  - apiVersion: v2
+    appVersion: 22.6.0
+    created: "2022-11-05T08:59:47.696849439Z"
+    description: A Helm chart for Kubernetes
+    digest: 536e34fb8e86fb9d61eabcac511699c5ce722e5b180568f0e54fff4299f643df
+    home: https://github.com/isac322/helm-charts
+    keywords:
+    - python
+    - black
+    - lint
+    - formatter
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: blackd
+    sources:
+    - https://github.com/isac322/helm-charts
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blackd-1.1.0/blackd-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 22.6.0
+    created: "2022-07-24T17:23:38.706991491Z"
+    description: A Helm chart for Kubernetes
+    digest: b9a5aa3b41584f2e330e03493f56c596522bb4a6dbcb11f86fde996ff591ec87
+    home: https://github.com/isac322/helm-charts
+    keywords:
+    - python
+    - black
+    - lint
+    - formatter
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: blackd
+    sources:
+    - https://github.com/isac322/helm-charts
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blackd-1.0.1/blackd-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 22.3.0
+    created: "2022-05-06T10:38:49.467707102Z"
+    description: A Helm chart for Kubernetes
+    digest: a20502ca32e175bc6c991b649d3018c9d464b4b4c4d78081f0e8c9a85bbd0952
+    home: https://github.com/isac322/helm-charts
+    keywords:
+    - python
+    - black
+    - lint
+    - formatter
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: blackd
+    sources:
+    - https://github.com/isac322/helm-charts
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blackd-1.0.0/blackd-1.0.0.tgz
+    version: 1.0.0
+  blocky-custom:
+  - apiVersion: v2
+    created: "2022-07-24T17:23:38.88253495Z"
+    dependencies:
+    - name: blocky
+      repository: https://k8s-at-home.com/charts/
+      version: 10.4.0
+    description: DNS proxy as ad-blocker for local network
+    digest: f70a2a858fb506412175fda5dd7bd82325e1445bd24e021219dbb812d0a11940
+    kubeVersion: '>=1.16.0-0'
+    name: blocky-custom
+    sources:
+    - https://github.com/0xERR0R/blocky
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blocky-custom-10.4.0/blocky-custom-10.4.0.tgz
+    version: 10.4.0
+  - apiVersion: v2
+    created: "2022-05-06T10:38:49.582700592Z"
+    dependencies:
+    - name: blocky
+      repository: https://k8s-at-home.com/charts/
+      version: 10.2.2
+    description: DNS proxy as ad-blocker for local network
+    digest: 35acdfb587b57ea1b6d8fede843e1fdd3ef757ff99aec8f6ad8c2ced9aa115a9
+    kubeVersion: '>=1.16.0-0'
+    name: blocky-custom
+    sources:
+    - https://github.com/0xERR0R/blocky
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blocky-custom-10.2.2/blocky-custom-10.2.2.tgz
+    version: 10.2.2
+  cluster-issuer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-25T15:03:41.369562163Z"
+    description: cert-manager ClusterIsser
+    digest: 58758ba333ad58b911e11b219cb8ecb012d7967a2dc08c135ca661b649e017c9
+    name: cluster-issuer
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-issuer-0.1.0/cluster-issuer-0.1.0.tgz
+    version: 0.1.0
+  cluster-secret-store:
+  - apiVersion: v2
+    created: "2022-05-15T13:49:07.93345559Z"
+    description: Create ClusterSecretStore
+    digest: 408bfce26d055292b1529b0c89c6507bc63ed39ae820cd4bceb23579287523d1
+    name: cluster-secret-store
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-secret-store-0.1.0/cluster-secret-store-0.1.0.tgz
+    version: 0.1.0
+  cluster-secrets:
+  - apiVersion: v2
+    created: "2022-05-15T15:07:24.908914298Z"
+    description: Create ClusterSecretStore
+    digest: 08019a3f1eaad591e264cbdcdbbc314e4dd62b1e67f28fe4995733e51ec6bc1a
+    name: cluster-secrets
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-secrets-0.1.1/cluster-secrets-0.1.1.tgz
+    version: 0.1.1
+  external-dns:
+  - apiVersion: v2
+    created: "2022-07-24T17:23:39.028261139Z"
+    dependencies:
+    - name: external-dns
+      repository: https://kubernetes-sigs.github.io/external-dns/
+      version: 1.10.1
+    description: External-DNS
+    digest: 3c8ed441f3d82ac7fff10f74a0d9b27ad7c022bb042302c6836c61e9e6a4de7a
+    name: external-dns
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/external-dns-0.1.2/external-dns-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2022-05-16T15:14:03.500744337Z"
+    dependencies:
+    - name: external-dns
+      repository: https://kubernetes-sigs.github.io/external-dns/
+      version: 1.9.0
+    description: External-DNS
+    digest: 3723a05f1de5f5cd8f3dae954efe133fc522b4189b958e252782ab338fc9cc6f
+    name: external-dns
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/external-dns-0.1.0/external-dns-0.1.0.tgz
+    version: 0.1.0
+  get-oracle-a1:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-05-06T10:38:49.696451368Z"
+    description: Get A1.Flex instance automatically
+    digest: d994cb39015d5ac88137034958c1465e5b7830b652e9d1043686aa684d1ccb17
+    name: get-oracle-a1
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/get-oracle-a1-0.1.0/get-oracle-a1-0.1.0.tgz
+    version: 0.1.0
+  jay-india:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-11-12T14:50:25.23630329Z"
+    description: A Helm chart for Kubernetes
+    digest: a81cc95b8c31674377c72a9b06a221200d2f270541bda55fdcb303ef7421d759
+    name: jay-india
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/jay-india-0.2.1/jay-india-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-11-05T08:59:47.844550307Z"
+    description: A Helm chart for Kubernetes
+    digest: b84b863be616e48882dfb627216a6d114c996b94f71137644b21af6ca656c5f8
+    name: jay-india
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/jay-india-0.2.0/jay-india-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-08-14T08:37:31.84379717Z"
+    description: A Helm chart for Kubernetes
+    digest: 9d8db46fe71bcf97050ac5082fc801f7ee24b2b6be4ecdada438e50b70d2d579
+    name: jay-india
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/jay-india-0.1.1/jay-india-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-05-06T10:38:49.843060612Z"
+    description: A Helm chart for Kubernetes
+    digest: 207c52c55053e5e95965b5d321fb2b23e584753e70aa2a8d7ee33d591771af17
+    name: jay-india
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/jay-india-0.1.0/jay-india-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v2
+    appVersion: 7.0.5
+    created: "2022-10-10T15:22:35.665272721Z"
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 3c7ce7174f652a8e3ffa9416bddadb9fb005c96a9b7809a25d82952d8ba1372f
+    home: https://github.com/isac322/homelab.git
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: bhyoo@bhyoo.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: redis
+    sources:
+    - https://isac322.github.io/homelab
+    - https://github.com/isac322/homelab.git
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/redis-0.1.0/redis-0.1.0.tgz
+    version: 0.1.0
+  registry:
+  - apiVersion: v1
+    appVersion: 2.7.1
+    created: "2022-11-05T08:59:48.021030797Z"
+    description: A Helm chart for Docker Registry
+    digest: d00565c06c8c4609340d5ae5aec22aae9af928ddf020239e1c922fc15cf56b73
+    home: https://hub.docker.com/_/registry/
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Isac Yoo
+    name: registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - https://github.com/isac322/homelab/releases/download/registry-1.14.0/registry-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v1
+    appVersion: 2.7.1
+    created: "2022-08-14T08:37:31.954544516Z"
+    description: A Helm chart for Docker Registry
+    digest: bf5960b9d746a7ffdb015bc6db3bed175288a3d6f848fb3d906e5105a4860d99
+    home: https://hub.docker.com/_/registry/
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Isac Yoo
+    name: registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - https://github.com/isac322/homelab/releases/download/registry-1.13.1/registry-1.13.1.tgz
+    version: 1.13.1
+  - apiVersion: v1
+    appVersion: 2.7.1
+    created: "2022-05-06T10:38:49.955658775Z"
+    description: A Helm chart for Docker Registry
+    digest: ad483d5d30f2da536c942ccece3080b39ba8b7c726a54fa8160cdd10a47fbe57
+    home: https://hub.docker.com/_/registry/
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Isac Yoo
+    name: registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - https://github.com/isac322/homelab/releases/download/registry-1.13.0/registry-1.13.0.tgz
+    version: 1.13.0
+generated: "2022-11-12T14:50:25.23633959Z"
