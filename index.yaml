@@ -369,4 +369,16 @@ entries:
     urls:
     - https://github.com/isac322/homelab/releases/download/registry-1.13.0/registry-1.13.0.tgz
     version: 1.13.0
-generated: "2022-11-12T14:50:25.23633959Z"
+  static-lb:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-12-11T13:38:12.215910109Z"
+    description: Lightweight k8s Loadbalancer that reflect node's IP for bare metal
+      cluster
+    digest: c15e43b821f25cdbb294a813aa898f7b2f0a0a3b81034a577c67f07b68e579b4
+    name: static-lb
+    type: application
+    urls:
+    - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-11T13:38:12.21593641Z"
