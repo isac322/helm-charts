@@ -87,6 +87,28 @@ entries:
     version: 0.1.0
   blackd:
   - apiVersion: v2
+    appVersion: 22.12.0
+    created: "2022-12-12T05:49:16.006629416Z"
+    description: A Helm chart for Kubernetes
+    digest: 5bb3b88b3f7d2ea7a1e69ed02eac7e82c04b6ba707ed6b789b00b7653fa16b16
+    home: https://github.com/isac322/homelab
+    keywords:
+    - python
+    - black
+    - lint
+    - formatter
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: blackd
+    sources:
+    - https://github.com/psf/black
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blackd-1.1.2/blackd-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: 22.6.0
     created: "2022-11-05T08:59:47.696849439Z"
     description: A Helm chart for Kubernetes
@@ -435,4 +457,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-12T05:07:54.122747945Z"
+generated: "2022-12-12T05:49:16.437298689Z"
