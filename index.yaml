@@ -415,6 +415,24 @@ entries:
     version: 1.13.0
   static-lb:
   - apiVersion: v2
+    appVersion: 0.3.2
+    created: "2022-12-18T13:55:58.480503104Z"
+    description: Lightweight k8s Loadbalancer that reflect node's IP for bare metal
+      cluster
+    digest: 49f25d5737733776d45efb539f5e2cf70db04e3f868bc167725cd3a46862a667
+    home: https://github.com/isac322/static-lb
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: static-lb
+    sources:
+    - https://github.com/isac322/static-lb
+    type: application
+    urls:
+    - https://github.com/isac322/static-lb/releases/download/static-lb-0.4.2/static-lb-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
     appVersion: 0.3.1
     created: "2022-12-18T13:30:51.518946264Z"
     description: Lightweight k8s Loadbalancer that reflect node's IP for bare metal
@@ -515,4 +533,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-18T13:30:51.519006667Z"
+generated: "2022-12-18T13:55:58.480669106Z"
