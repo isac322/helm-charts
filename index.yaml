@@ -248,6 +248,16 @@ entries:
   cluster-issuer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-04-22T17:43:53.776523059Z"
+    description: cert-manager ClusterIsser
+    digest: 24abf004c88fc9b7b2967c6f190b135f17d4a7dfd0fdaaf842b42eed9f5bcd76
+    name: cluster-issuer
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-issuer-0.1.1/cluster-issuer-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-07-25T15:03:41.369562163Z"
     description: cert-manager ClusterIsser
     digest: 58758ba333ad58b911e11b219cb8ecb012d7967a2dc08c135ca661b649e017c9
@@ -585,4 +595,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-22T12:07:41.271236063Z"
+generated: "2023-04-22T17:43:54.34792058Z"
