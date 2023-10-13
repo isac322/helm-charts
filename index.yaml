@@ -301,6 +301,18 @@ entries:
     urls:
     - https://github.com/isac322/homelab/releases/download/cluster-secrets-0.1.1/cluster-secrets-0.1.1.tgz
     version: 0.1.1
+  deluged:
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-10-13T12:26:47.316519308Z"
+    description: BitTorrent client with multiple user interfaces in a client/server
+      model
+    digest: 2bffccd65d32582161be568fa70a50c935631ac669593054876e8d2f08b4eb60
+    name: deluged
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/deluged-0.1.0/deluged-0.1.0.tgz
+    version: 0.1.0
   external-dns:
   - apiVersion: v2
     created: "2022-07-24T17:23:39.028261139Z"
@@ -610,4 +622,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-23T09:06:50.975330851Z"
+generated: "2023-10-13T12:26:47.752357758Z"
