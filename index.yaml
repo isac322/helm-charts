@@ -199,6 +199,21 @@ entries:
   blocky:
   - apiVersion: v2
     appVersion: v0.22
+    created: "2023-10-17T13:50:23.657671763Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.1.5
+    description: A Helm chart for Kubernetes
+    digest: 1e580259ea69905414cc8f36d0bd1a13f27de78e91c14d39448554ee6c2807ca
+    name: blocky
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/blocky-0.22.2/blocky-0.22.2.tgz
+    version: 0.22.2
+  - apiVersion: v2
+    appVersion: v0.22
     created: "2023-10-17T13:45:29.381727225Z"
     dependencies:
     - condition: redis.enabled
@@ -652,4 +667,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-17T13:45:30.048841964Z"
+generated: "2023-10-17T13:50:24.107675749Z"
