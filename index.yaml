@@ -305,6 +305,17 @@ entries:
     urls:
     - https://github.com/isac322/homelab/releases/download/blocky-custom-10.2.2/blocky-custom-10.2.2.tgz
     version: 10.2.2
+  cluster-acme-issuer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-17T13:49:35.715422667Z"
+    description: cert-manager ClusterIssuer for ACME
+    digest: e16b755de079da84c49b582f75ecdfcd7ebad3e2119e438bc72c9a00172f9f0e
+    name: cluster-acme-issuer
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-acme-issuer-0.2.0/cluster-acme-issuer-0.2.0.tgz
+    version: 0.2.0
   cluster-issuer:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -683,4 +694,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-17T13:35:43.217878624Z"
+generated: "2023-12-17T13:49:36.041325953Z"
