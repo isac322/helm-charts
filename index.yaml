@@ -364,6 +364,22 @@ entries:
     version: 0.1.0
   cluster-secrets:
   - apiVersion: v2
+    created: "2023-12-23T06:29:20.82642213Z"
+    description: Create ClusterSecretStore
+    digest: 0e46fe1d141943a991734bb9fc6f4a50e24b4ae28ebd10e366449a4ca4852bb2
+    home: https://github.com/isac322/homelab
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: cluster-secrets
+    sources:
+    - https://github.com/isac322/homelab
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-secrets-0.3.1/cluster-secrets-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     created: "2023-12-18T13:05:16.215112751Z"
     description: Create ClusterSecretStore
     digest: 7b26b5b3e2ce25b58b8984d88ec4ac69712ca9afc0b652671364dc43ac16b90d
@@ -725,4 +741,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-18T14:23:25.992512982Z"
+generated: "2023-12-23T06:29:21.065328093Z"
