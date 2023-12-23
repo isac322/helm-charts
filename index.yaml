@@ -472,6 +472,23 @@ entries:
     version: 0.1.0
   jay-india:
   - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2023-12-23T15:16:24.799178637Z"
+    description: A Helm chart for Kubernetes
+    digest: 13746c96ac0eb43e0f6d9a696061c6a3d07ef473a446592ca63ed4a12e0cca6e
+    home: https://github.com/isac322/homelab
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: jay-india
+    sources:
+    - https://github.com/jayjeong8/IndiaPhotos_inspiredByCodegrid
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/jay-india-0.3.0/jay-india-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 0.2.0
     created: "2022-11-12T14:50:25.23630329Z"
     description: A Helm chart for Kubernetes
@@ -741,4 +758,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-23T06:29:21.065328093Z"
+generated: "2023-12-23T15:16:24.86979872Z"
