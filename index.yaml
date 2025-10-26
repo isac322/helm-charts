@@ -409,6 +409,16 @@ entries:
   cluster-issuer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-10-26T11:49:42.309794968Z"
+    description: cert-manager ClusterIssuer
+    digest: b8da70660ba148aaaaeb1029497e35b88c3a1c9e9849d9384f387c6875027c8e
+    name: cluster-issuer
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-issuer-0.3.1/cluster-issuer-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-01T07:50:29.200066515Z"
     description: cert-manager ClusterIssuer
     digest: ca92c9c0011516ed80c4d00a44f70fc9ca54539e3bffff165740074d8a3bf3aa
@@ -448,6 +458,22 @@ entries:
     - https://github.com/isac322/homelab/releases/download/cluster-secret-store-0.1.0/cluster-secret-store-0.1.0.tgz
     version: 0.1.0
   cluster-secrets:
+  - apiVersion: v2
+    created: "2025-10-26T11:49:42.447780604Z"
+    description: Create ClusterSecretStore
+    digest: ef141dac94140868bf04d55b28f1b9b25f3a8877e2062a908dc7aa675f298a62
+    home: https://github.com/isac322/homelab
+    maintainers:
+    - email: bh322yoo@gmail.com
+      name: Byeonghoon Isac Yoo
+      url: https://github.com/isac322
+    name: cluster-secrets
+    sources:
+    - https://github.com/isac322/homelab
+    type: application
+    urls:
+    - https://github.com/isac322/homelab/releases/download/cluster-secrets-0.3.2/cluster-secrets-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v2
     created: "2023-12-23T06:29:20.82642213Z"
     description: Create ClusterSecretStore
@@ -854,4 +880,4 @@ entries:
     urls:
     - https://github.com/isac322/static-lb/releases/download/static-lb-0.1.0/static-lb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-28T14:06:28.620802677Z"
+generated: "2025-10-26T11:49:43.385479478Z"
